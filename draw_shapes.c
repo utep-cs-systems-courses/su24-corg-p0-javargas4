@@ -7,7 +7,7 @@ void print_square(int leftCol, int size, bool isArrow)
 {
   int i, j;
   int endCol = leftCol + size;
-  inr row = 0;
+  int row = 0;
 
   if (isArrow) {
     row =- 5;
@@ -45,4 +45,3 @@ void print_arrow(int leftCol, int size)
   print_square(leftCol, size, isArrow);
   putchar('\n');
 }
-
